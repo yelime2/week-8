@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>subway survive kit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+	<style type="text/css">
+	html{  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100-900;
+  font-style: normal;
+color: white; word-break: keep-all; line-height: 1.5}
+@font-face {
+    font-family: 'ChosunBg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunBg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+	}
+	body, h1, h2, h3, h4, p, ul, img{margin: 0px;}
+	section{padding-top: 0px; padding-bottom: 300px}
+	body{background: black;}
+	nav {position: fixed; top: 0; left: 0; width: 100%; z-index: 999;}
+	ul{list-style: none; margin: 0px; padding: 0px} 
+	ul li a{text-decoration: none; display: block; color: red; padding: 8px 50px; font-family: "Bebas Neue", sans-serif; font-size: 2rem}
+	ul li a:hover{color: white;
+			transition: all 0.5s}
+	.wrap{width: 1000px; margin: auto;}
+	.flex{display: flex; justify-content: center; gap: 30px}
+	.bg-red{background: linear-gradient(to bottom, black 70%, rgba(0, 0, 0, 0) 100%)}
+	.bg-header{background: url("title 1.jpg"); background-size: cover;
+		background-attachment: fixed; background-position: center; padding-top: 300px}
+	.bg-02{background: url("back 02.jpg"); background-size: cover; background-position: center; padding-top: 100px; padding-bottom: 100px}
+	.bg-03{background: url("back 03.jpg"); background-size: cover; background-position: center;background-attachment: fixed}
+	.bg-04{background: url("back04.gif"); background-size: cover; background-position: center;background-attachment: fixed}
+	.bg-05{background: url("back 05.png"); background-size: cover; background-position: center;background-attachment: fixed}
+	.bg-06{background: url("back06.jpg"); background-size: cover; background-position: center; padding-bottom: 300px;}
+	.bg-vr {background: url("how2.png") no-repeat; background-size: 800px;}
+	.move-down{padding-top: 250px}
+	.move-right{padding-left: 100px; box-sizing: border-box; text-align: left;}
+	.move-left{padding-right: 100px; box-sizing: border-box; text-align: left}
+	.no-padding {padding-bottom: 0 !important;}
+	.no-pt{padding-top: 40px}
+	.pt{padding-bottom: 10px}
+	.center-text{text-align: center}
+	.red-text{color: red}
+	.grey-text{color: silver;}
+	.flex-two-col{display: flex; justify-content: space-between; align-items: flex-start; gap: 50px; text-align: left;}
+	.text-block{flex flex-shrink: 0}
+	.step2-layout{display: flex; justify-content: space-between; align-items: flex-start; gap: 50px; padding-top: 100px;}
+	.text-col{flex: 1; text-align: left;}
+	.desc-col{flex: 1; text-align: left}
+	.button-block{flex-shrink: 0; padding-top: 10px}
+	.gradient-button {display: inline-block;padding: 20px 40px;font-size: 3rem;font-family: "Bebas Neue", sans-serif; line-height: 1;color: black; /* 버튼 텍스트 색 */background: red; /* 그라데이션 배경 */border: none;border-radius: 0; cursor: pointer;text-decoration: none;text-align: center; box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);transition: all 0.3s ease;}
+	.gradient-button:hover {box-shadow: 0 0 25px rgba(255, 0, 0, 0.8);transform: scale(1.05);}
+	.font{font-family: "Bebas Neue", sans-serif;}
+	.img2{margin: 30px 0}
+	.black-text{color: black}
+
+	header{}
+	h1{width: 1000px;font-size: 5rem; margin: auto;}
+	header h1{padding-top:400px;padding-bottom: 0px;text-align: center; font-family: "Bebas Neue", sans-serif;font-size: 14rem;}
+	h2{font-size: 4rem; font-weight: black 900; letter-spacing: 1px; line-height: 1.4; text-align: left;}
+	h3{text-align: center; font-family: "Bebas Neue", sans-serif;font-size: 9rem;}
+	h4{font-family: "Noto Sans KR";font-size: 2.3rem; text-align: center;}
+	img{width: 100%; padding-top: 0px; padding-bottom: 0px}
+	p{font-family: "Noto Sans KR", sans-serif; font-weight: medium;font-size: 1.3rem; line-height: 1.7; padding-top: 50px; word-break: keep-all;}
+	</style>
+</head>
+<body>
+	<nav class="bg-red">
+		<div class="wrap">
+			<ul class="flex">
+				<li><a href="#">PRODUCT</a></li>
+				<li><a href="#">REVIEW</a></li>
+				<li><a href="#">OPTION</a></li>
+				<li><a href="#">CART</a></li>
+			</ul>
+		</div>
+	</nav>
+		<header class="bg-header">
+			<div>
+				<h1>SURVIVAL KIT</h1>
+			</div>
+		</header>
+<section>
+	<div class="wrap">
+		<img src="back 02.jpg">
+		<h4 class="center-text grey-text">혹시 아직도 매일 지옥철에서<br>치이고, 눌리고, 숨 막히고 계신가요?<br>이제는 그 고통, 지옥철 생존 키트로 없앨 수 있습니다.</h4>
+	</div>
+</section>
+<section>
+	<div class="wrap">
+		<div class="flex-two-col">
+			<div class="text-block">
+				<h2 class="red-text">지옥철 생존 키트,<br>단계별로 확실하게.</h2>
+				<P class="grey-text move-left">밀려나는 발끝, 시선의 압박, 출퇴근길 지하철에서 살아남기 위해선, 강력한 무기가 필요합니다. 지옥철 생존 키트는 시도하기 쉬운 것부터, 용기 있는 선택까지. 당신의 수치심 단계에 맞춰 구매하실 수 있습니다. 처음엔 살짝, 나중엔 대담하게. 당신만의 방식으로, 지하철에서의 삶을 새롭게 정의하세요.</P>
+			</div>
+			<div class="botton-block">
+				<a href="#" class="gradient-button">BUY</a>
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="wrap">
+		<h3 class="center-text red-text">STEP 1</h3>
+		<h4 class="center-text">절대 안밀림 밑창</h4>
+		<P class="center-text grey-text">특수 제작된 흡착 밑창이 지하철의 갑작스러운 제동에도, 밀려오는 인파 속에서도 당신을 제자리에 단단히 고정시켜줍니다. 아무도 모르게, 그러나 누구보다 확실하게 지옥철에서 살아남을 수 있게 해주는 제품입니다.</P>
+		<img src="sole.png">
+		<h4 class="red-text font">HOW TO USE</h4>
+		<img src="how1.png">
+	</div>
+</section>
+<section class="no-padding">
+	<div class="wrap step2-layout">
+		<div class="text-col">
+			<h3 class="red-text" style="text-align: left;">STEP 2</h3>
+			<h4 style="text-align: left;">현실도피 VR</h4>
+		</div>
+		<div class="desc-col">
+			<P class="grey-text">기기를 착용하는 순간 당신의 눈 앞에 펼쳐지는건 꽉 막힌 지하철이 아닌, 한적한 숲, 고요한 바다입니다.초경량 + 24시간 지속 배터리로 완전하게 현실을 회피하게 해줍니다.</P>
+		</div>
+	</div>
+	<img src="how2.png">
+</section>
+<section class="bg-06">
+	<div class="wrap">
+		<h2 class="move-down" style="text-align: center;">내가 가고싶은 곳 어디든</h2>
+	</div>
+</section>
+<section>
+	<div class="wrap">
+		<h3 class="red-text"></h3>
+		<h4 class="center-text"></h4>
+		
+	</div>
+</section>
+
+<footer></footer>
+
+</body>
+</html>
